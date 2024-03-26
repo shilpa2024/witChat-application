@@ -29,9 +29,10 @@ const FormField = ({
           <FontAwesomeIcon className="sm:text-xl text-lg" icon={iconName} />
         )}
         <input
-          className={`bg-transparent outline-none border-none w-full p-4 truncate placeholder:text-sm ${isFileInput &&
+          className={`bg-transparent outline-none border-none w-full p-4 truncate placeholder:text-sm ${
+            isFileInput &&
             "file:h-full file:bg-[#004351] file:text-white file:rounded-md file:shadow-none py-0 h-full"
-            }`}
+          }`}
           type={inputType}
           placeholder={placeholder}
           id={id}
